@@ -1,0 +1,38 @@
+{
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
+    "consistent-return": 0,
+    "curly": "error",
+    "eqeqeq": "error",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "key-spacing": ["error", {
+      "beforeColon": false,
+      "afterColon": true
+    }],
+    "keyword-spacing": "error",
+    "no-multiple-empty-lines": "error",
+    "no-throw-literal": "error",
+    "no-underscore-dangle": 0,
+    "no-unused-vars": ["error", {
+      "vars": "all",
+      "args": "none"
+    }],
+    "no-use-before-define": ["error", "nofunc"],
+    "object-curly-spacing": ["error", "always"],
+    "quote-props": ["error", "as-needed"],
+    "quotes": ["error", "single"],
+    "radix": "error",
+    "space-before-blocks": ["error", "always"],
+    "space-before-function-paren": ["error", "always"],
+    "space-in-parens": ["error", "never"],
+    "space-unary-ops": ["error", {
+      "words": true,
+      "nonwords": false
+    }],
+    "strict": ["error", "never"],
+    "wrap-iife": ["error", "inside"]
+  }
+}
