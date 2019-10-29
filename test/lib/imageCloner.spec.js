@@ -14,7 +14,6 @@ describe('lib/imageCloner', function () {
   var clonedImage;
   var config;
   var destinationRegion;
-  var ec2;
   var image;
   var imageCloner;
   var launchPermissions;
